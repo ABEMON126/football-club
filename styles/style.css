@@ -1,0 +1,53 @@
+/* comon-styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* comon-styles */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* hero section start */
+.container{
+    background-color: #2d25A0;
+padding: 50px 0;
+}
+.menu-container{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 156px;
+    margin-right: 156px;
+
+}
+.full-width{
+    width: 100%;
+ 
+    
+}
+.information-area h1{
+    color: white;
+    font-size: 64px;
+}
+.information-area a{
+    text-decoration: none;
+    color: white;
+    background-color:tomato ;
+    padding: 10px 24px;
+}
+.player-image img{
+    width: 100%;
+}
+/* hero section start */
+/* hero section responsive start  */
+@media (max-width: 700px) {
+    .menu-container{
+        flex-direction: column;
+        margin: 0 ;
+    }
+    .information-area{
+       margin-left: 20px;
+        margin-bottom: 30px;
+    }
+}
+/* hero section responsive start  */
